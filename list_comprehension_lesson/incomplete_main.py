@@ -1,3 +1,3 @@
 
-def double_xp()-> list[int]:
-    #enter your code here
+def double_xp(base_xp_rewards):
+    pass
