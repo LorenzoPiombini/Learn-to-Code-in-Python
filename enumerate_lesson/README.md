@@ -15,3 +15,19 @@ python gives us the built-in enumerate() function. It wraps around any iterable 
 
 > [!NOTE]
 > [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate) yields a tuple containing `(index, item)`. 
+
+
+
+## 📋 Tips
+
+<details>
+<summary>Click to expand additional hints</summary>
+
+1.  By default, `enumerate()` starts counting at `0`. However, you can pass an optional `start` keyword argument to change this behavior:
+
+    ```python
+    for index, item in enumerate(inventory, start=1):
+        print(f"Item #{index}: {item}")
+    ```
+
+</details>
