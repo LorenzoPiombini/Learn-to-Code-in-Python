@@ -14,4 +14,4 @@ for item in inventory:
 python gives us the built-in enumerate() function. It wraps around any iterable and hands you both the index and the item on every single iteration.
 
 > [!NOTE]
-> ![https://docs.python.org/3/library/functions.html#enumerate]`enumerate()` yields a tuple containing `(index, item)`. 
+> [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate) yields a tuple containing `(index, item)`. 
