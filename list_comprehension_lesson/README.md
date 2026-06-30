@@ -27,5 +27,5 @@ It allows you to declare a new list and populate it in a single line.
 Assignment
 Our players just drank an XP Potion. For the next few minutes, all experience points gained from defeating monsters are doubled!
 
-Complete the double_xp function. It accepts a list of integers (base_xp_rewards) and should return a new list with all the values doubled using a list comprehension. Do not use a traditional for loop.  
+Complete the **double_xp** function. It accepts a list of **int** (_base_xp_rewards_) and should return a new list with all the values doubled using a list comprehension. Do not use a traditional for loop.  
 
