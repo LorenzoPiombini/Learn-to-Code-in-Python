@@ -13,11 +13,22 @@ for item in inventory:
 
 python gives us the built-in enumerate() function. It wraps around any iterable and hands you both the index and the item on every single iteration.
 
+```python
+for index, item in enumerate(inventory):
+    print(f"Slot {index} contains: {item}")
+```
 
 > [!NOTE]
 > [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate) yields a tuple containing `(index, item)`. 
 
+# Assignment
 
+We are building a leaderboard display for our PvP Arena. We have an ordered list of player names representing their rank (index 0 is 1st place, index 1 is 2nd place, etc.).
+
+Complete the *format_leaderboard()* function. It accepts a list of strings (_player_names_). 
+loop through the players and return a new list of formatted strings that look like this:
+
+"1. PlayerName"
 
 
 <details>
